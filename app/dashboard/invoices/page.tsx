@@ -7,6 +7,10 @@ import { lusitana } from '@/app/ui/fonts';
 import { InvoicesTableSkeleton } from '@/app/ui/skeletons';
 import { Suspense } from 'react';
 
+export const metadata: Metadata = {
+  title: 'Invoices',
+};
+
 const Page = async (props: {
   searchParams?: Promise<{
     query?: string;
